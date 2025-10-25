@@ -237,13 +237,14 @@ const App = () => {
     "technology",
     "sports",
     "health",
+    
   ];
 
   return (
     <div className="min-h-screen bg-white dark:bg-black text-gray-900 dark:text-gray-100 transition-all duration-300">
       {/* Header */}
       <header className="flex justify-between items-center p-4 bg-blue-600 dark:bg-gray-800 text-white shadow">
-        <h1 className="text-2xl font-bold">📰 News Feed App hello</h1>
+        <h1 className="text-2xl font-bold">📰 News Feed App </h1>
         <button
           onClick={toggleDarkMode}
           className="bg-white text-blue-600 px-3 py-1 rounded hover:bg-gray-200 dark:bg-gray-700 dark:text-white"
